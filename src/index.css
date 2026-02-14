@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'EightiesComeback';
+  src: local('EightiesComeback Light Condensed'), local('EightiesComeback'),
+       url('/fonts/EightiesComeback - Light Condensed.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'EightiesComeback It';
+  src: local('EightiesComeback It Light Condensed'), local('EightiesComeback It'),
+       url('/fonts/EightiesComeback It - Light Condensed.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'EightiesComeback It Light Condensed';
+  src: local('EightiesComeback It Light Condensed'), local('EightiesComeback It'),
+       url('/fonts/EightiesComeback It - Light Condensed.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'EightiesComeback Light Condensed';
+  src: local('EightiesComeback Light Condensed'), local('EightiesComeback'),
+       url('/fonts/EightiesComeback - Light Condensed.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: #121c1f;
+}
+
+@keyframes diskSpin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
